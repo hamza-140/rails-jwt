@@ -34,7 +34,7 @@ gem "bootsnap", require: false
 gem 'sprockets-rails'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
-
+gem 'dotenv', groups: [:development, :test]
 group :development, :test do
   gem 'rspec-rails'
   gem "factory_bot_rails"
